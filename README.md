@@ -1,2 +1,3 @@
 # rusty_snake
-Small project to learn some Rust
+
+Tiny project to learn some basic of Rust from tensor programming tutorial.
