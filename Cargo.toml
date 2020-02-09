@@ -1,0 +1,11 @@
+[package]
+name = "rusty_snake_game"
+version = "0.1.0"
+authors = ["Piotr Gródek"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.2"
+# huhuhu raylib-sys fails to build on linux because glfw is missing mesa/x11:
+# sudo apt-get install xorg-dev libglu1-mesa-dev
+raylib = { git = "https://github.com/deltaphc/raylib-rs", branch = "master" }
